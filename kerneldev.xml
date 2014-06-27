@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="cambridgehackers"
+           fetch="git://github.com/cambridgehackers/" review="git@github.com:cambridgehackers/" />
+
+  <default revision="master"
+           remote="cambridgehackers"
+           sync-j="4" />
+  <project path="xbsv" name="xbsv" />
+  <project path="zynq-boot" name="zynq-boot" />
+  <project path="xbsv-generated-ip" name="xbsv-generated-ip" />
+
+  <project path="kernel" name="device_xilinx_kernel" />
+
+</manifest>

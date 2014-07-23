@@ -8,6 +8,7 @@
            remote="cambridgehackers"
            sync-j="4" />
   <project path="xbsv" name="xbsv" />
+  <project path="fpgamake" name="fpgamake" />
   <project path="zynq-boot" name="zynq-boot" />
   <project path="xbsv-generated-ip" name="xbsv-generated-ip" />
 

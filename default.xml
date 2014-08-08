@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="cambridgehackers"
+  <remote  name="origin"
            fetch="git://github.com/cambridgehackers/" review="git@github.com:cambridgehackers/" />
 
   <default revision="master"
-           remote="cambridgehackers"
+           remote="origin"
            sync-j="4" />
   <project path="xbsv" name="xbsv" />
   <project path="buildcache" name="buildcache" />

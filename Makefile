@@ -3,6 +3,9 @@
 WORK_DIR=work
 THREADS=4
 
+updatemanifest: default.xml
+	sed 's|git://github.com/cambridgehackers/|git@github.com:cambridgehackers/|' < default.xml > developer.xml
+
 init: $(WORK_DIR)/repo $(WORK_DIR)/.repo/manifest.xml
 	echo 'run make sync to update the repo'
 

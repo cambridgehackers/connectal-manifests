@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="git@github.com:cambridgehackers/" review="github.com"/>
+
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+  <project path="xbsv" name="xbsv" />
+  <project path="buildcache" name="buildcache" />
+  <project path="fpgamake" name="fpgamake" />
+  <project path="zynq-boot" name="zynq-boot" />
+  <project path="xbsv-generated-ip" name="xbsv-generated-ip" />
+  <project path="opencv-android-sdk" name="opencv-android-sdk" />
+
+</manifest>

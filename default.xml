@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="origin"
-           fetch="git://github.com/cambridgehackers/" review="github.com"/>
+           fetch="git://github.com/cambridgehackers/"/>
 
   <default revision="master"
            remote="origin"

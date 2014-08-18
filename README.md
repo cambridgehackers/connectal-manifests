@@ -14,6 +14,8 @@ Repo manifest for xbsv project
 XBSV developers
 ===============
 
+Use the developer.xml manifest to clone the repos from git@github.com instead of git://github.com:
+
     mkdir xbsv-work
     cd xbsv-work
     curl https://storage.googleapis.com/git-repo-downloads/repo > ./repo
@@ -22,13 +24,10 @@ XBSV developers
     ./repo sync
 
 
-How to make git push work
-=========================
-
-    cd xbsv-work
-    ./repo forall -c 'export repodir=`/bin/pwd`; git remote add cambridgehackers git@github.com:cambridgehackers/`basename $repodir`.git'
+Git push
+========
 
 To push from xbsv:
 
     cd xbsv-work/xbsv
-    git push cambridgehackers
+    git push

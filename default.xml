@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="origin"
-           fetch="git://github.com/cambridgehackers/" review="git@github.com:cambridgehackers/" />
+           fetch="git://github.com/cambridgehackers/" review="git@github.com:cambridgehackers/ push="git@github.com:cambridgehackers/" />
 
   <default revision="master"
            remote="origin"
@@ -12,5 +12,6 @@
   <project path="fpgamake" name="fpgamake" />
   <project path="zynq-boot" name="zynq-boot" />
   <project path="xbsv-generated-ip" name="xbsv-generated-ip" />
+  <project path="opencv-android-sdk" name="opencv-android-sdk" />
 
 </manifest>
